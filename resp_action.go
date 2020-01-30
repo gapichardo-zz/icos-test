@@ -43,6 +43,7 @@ func Main(params map[string]interface{}) map[string]interface{} {
 	// Los numeros de los telefonos celulares que deben estar validados en el portal de Twilio
 	// Pueden ser obtenidos de una base de datos en un ambiente productivo
 
+	//Pueden ser uno o más celulares
 	celulares := []string{"<TELEFONO-DE-ENVIO1>", "<TELEFONO-DE-ENVIO2>"}
 	v := url.Values{}
 	cliente := &http.Client{}
