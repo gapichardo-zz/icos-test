@@ -6,4 +6,4 @@
 <p>La solución presentada en este artículo es una aplicación Web desarrollada en Node.js, utilizando Express como framework de backend. Esta aplicación se ejecuta en contenedores Docker desplegada en IBM Kubernetes Service, se despliega una forma HTML básica para seleccionar un archivo que, utilizando las API’s de ICOS, se realiza la carga del archivo. La actualización del componente de almacenamiento (bucket) dispara un “trigger” que a su vez ejecuta una “acción” desarrollada en GoLang y alojada en IBM Functions, la cual envía un SMS alertando la carga del archivo por medio del servicio de Twilio.</p>
 
 <H2>Resumen de Arquitectura:</H2>
-<images></images>
+<img src="https://github.com/gapichardo/icos-test/blob/master/ArchOverview.png"</images>
